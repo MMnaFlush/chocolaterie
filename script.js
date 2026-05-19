@@ -1,4 +1,4 @@
-fetch("user.json")
+fetch("chocolatier.json")
   .then(rep => {
     return rep.json()
   })

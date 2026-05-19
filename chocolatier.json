@@ -30,13 +30,13 @@
       "image": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/coffret-chocolats-assortis.webp"
     },
     {
-      "titre": "Chocolat chaud",
-      "presentation": "Un chocolat chaud onctueux et réconfortant, à déguster en toute occasion.",
+      "titre": "Marrons glacés",
+      "presentation": "Des marrons glacés fondants et raffinés, à savourer pour les grandes occasions.",
       "image": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/chocolat-chaud.webp"
     },
     {
-      "titre": "Mendiants",
-      "presentation": "Des chocolats aux fruits secs et fruits confits, pour une explosion de saveurs en bouche.",
+      "titre": "Idées de cadeaux",
+      "presentation": "Exprimez vos sentiments et vos meilleurs vœux avec du chocolat frais de qualité.",
       "image": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/chocolatier/mendiants.webp"
     }
   ],
