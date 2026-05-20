@@ -17,38 +17,39 @@
 
 </head>
 <body>
-  <header>
+  <header class="header">
 
-    <div class="header_container">
-    <nav>
+    <nav class="navClass navbar">
 
-      <div class="header_search">
-      <li><a href="" class="nav-link"><i class="ph ph-list"></i></a></li>
-      <button aria-label="Que recherchez-vous ?"><i class="ph ph-magnifying-glass"></i><span>Que recherchez-vous ?</span></button>
+      <div class="flex gap32 header_service">
+      <a href="" class=""><i class="ph ph-list"></i></a>
+      <button class="headerSearch" aria-label="Que recherchez-vous ?"><i class="ph ph-magnifying-glass"></i><span>Que recherchez-vous ?</span></button>
     </div>
+
     <div class="header_logo">
-      <a href="http://127.0.0.1:5500/index.html"><img src="asset/logo-chocolat-1.png" alt="Le palais du chocolat"></a>
+      <a href="http://127.0.0.1:5500/index.html"><img src="asset/logo-chocolat-1.png" class="logo-height" alt="Le palais du chocolat"></a>
     </div>
-    <div class="header_service">
+    <div class="header_service flex gap32 white">
       <p>Contactez-nous</p>
       <a href=""><i class="ph ph-user"></i></a>
       <a href=""><i class="ph ph-shopping-bag"></i></a>
     </div>
   
   </nav>
-  </div>
+
 
   </header>
   
-  <section class="hero">
-    <h1>LE CHOCOLAT QUI ÉVEILLE VOS PAPILLES</h1>
-    <div>
-      <p>Nouvelle collection</p>
-      <button class="" type="button">DÉCOUVRIR</button>
+  <section class="hero position-relative">
+    <h1 class="sloganContainer"></h1>
+    <div class="hero-texte white">
+      <p class="hs1">Nouvelle collection<br>&nbsp</p>
+      <button class="btnDecouvrir" type="button">DÉCOUVRIR</button>
     </div>
   </section>
-  
-  <section class="nosChocolats">
+
+  <!--
+    <section class="nosChocolats">
     <div class="nosChocolatsContainer">
     <div>
       <h3>Sélection du moment</h3>
@@ -58,7 +59,6 @@
     </div>
     <div class="nosChocolatsProduits">
       
-      <!--cartes fiches produits-->
       <div class="m-auto mt-32 card large-4 medium-6 small-12">
         <button class="">Bestseller</button>
         <h4>Pralinés</h>
@@ -116,9 +116,25 @@
     </div>
   </div>
     <a href="" class="underline">Découvrir tout nos produits<i class="ph-thin ph-arrow-down-right"></i></a>
-  </section>
+  </section>-->
 
-  <section class="truffe">
+<section class="nosChocolats">
+  <div class="nosChocolatsContainer">
+    <div class="text-center mt-32 pb-12 line-height">
+      <h3 class="after nc1">Sélection du moment</h3>
+      <h2 class="after nc2">Nos chocolats</h2>
+      <p>À la recherche du cadeau parfait ? Le palais du Chocolat<br> vous propose une sélection de coffrets de bonbons
+        de
+        <br>chocolats assortis et autres gourmandises.
+      </p>
+    </div>
+    <div class="nosChocolatsProduits m-auto mt-32">
+    </div>
+    <a href="" class="underline">Découvrir tout nos produits<i class="ph-thin ph-arrow-down-right"></i></a>
+  </div>
+</section>
+
+ <!-- <section class="truffe">
     <h2>Truffes au chocolat</h2>
     <p>Savourez nos truffes au chocolat, poudrées de cacao et au cœur mousseux, pour une expérience fondante et intense, pensée comme un hommage à la légèreté chocolatée.</p>
     <section class="sous-section-truffe">
@@ -139,7 +155,121 @@
       
       </div>
     </section>
+  </section>-->
+
+  <section class="truffe">
+    <h2>Truffes au chocolat</h2>
+    <p>Savourez nos truffes au chocolat, poudrées de cacao et au cœur mousseux, pour une expérience fondante et intense, pensée comme un hommage à la légèreté chocolatée.</p>
+    <section class="sous-section-truffe">
+      <div>
+        <p>Laissez-vous tenter par nos truffes d'exception</p>
+      </div>
+      <div>
+      
+        <div class="truffeCardContent">
+        </div>
+      
+      </div>
+    </section>
   </section>
+
+  <!--==========****DEVIS****=============-->
+
+  <!--<section classs="devis">
+    <h2>Le savoir-faire des chocolatiers français</h2>
+    <p>Chaque création est unique, chaque commande mérite une attention particulière. Que ce soit pour un événement d'exception, un cadeau sur mesure ou une collaboration professionnelle, nous prenons le temps d'écouter vos envies et de les traduire en chocolat. Contactez-nous pour recevoir un devis personnalisé, façonné avec le même soin que nos ganaches.èreté chocolatée.</p>
+<button>DEMANDER UN DEVIS GRATUIT</button>
+  </section>-->
+
+  <section class="devis">
+    <h2>Le savoir-faire des chocolatiers français</h2>
+    <p>Chaque création est unique, chaque commande mérite une attention particulière. Que ce soit pour un événement d'exception, un cadeau sur mesure ou une collaboration professionnelle, nous prenons le temps d'écouter vos envies et de les traduire en chocolat. Contactez-nous pour recevoir un devis personnalisé, façonné avec le même soin que nos ganaches.èreté chocolatée.</p>
+<button class="btnContainer"></button>
+  </section> 
+
+  <!--==========****AVIS CLIENTS****=============-->
+  <!--<section class="avisClients">
+    <h2>Retour clients</h2>
+    <p>Ils nous font confiance, et ça, ça n'a pas de prix. Depuis des années, nos clients reviennent pour la même raison : un chocolat qui ne ressemble à aucun autre. Découvrez leurs retours, leurs coups de cœur, et laissez-vous guider par ceux qui ont déjà succombé à notre savoir-faire artisanal.</p>
+  <div class="avisContainer">
+<div class="large-4 medium-6 small-12">
+    <div class="flex gap align-center">
+        <div class="avatar"></div>
+        <div>
+            <h4>Nom prenom</h4>
+            <p>typz de prestation</p>
+            <div class="stars">
+                ★★★★☆
+            </div>
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquid, minima voluptas expedita
+rem asperiores blanditiis cupiditate itaque recusandae nisi, incidunt adipisci. Ratione, magni.</p>          
+</div>
+<div class="avis large-4 medium-6 small-12">
+    <div class="flex gap align-center">
+        <div class="avatar"></div>
+        <div>
+            <h4>Nom prenom</h4>
+            <p>typz de prestation</p>
+            <div class="stars">
+                ★★★★☆
+            </div>
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquid, minima voluptas expedita
+rem asperiores blanditiis cupiditate itaque recusandae nisi, incidunt adipisci. Ratione, magni.</p>          
+</div>
+<div class="avis large-4 medium-6 small-12">
+    <div class="flex gap align-center">
+        <div class="avatar"></div>
+        <div>
+            <h4>Nom prenom</h4>
+            <p>typz de prestation</p>
+            <div class="stars">
+                ★★★★☆
+            </div>
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquid, minima voluptas expedita
+rem asperiores blanditiis cupiditate itaque recusandae nisi, incidunt adipisci. Ratione, magni.</p>          
+</div>
+
+  </div>
+  </section> 
+-->
+
+<section class="avisClients">
+    <h2>Retour clients</h2>
+    <p>Ils nous font confiance, et ça, ça n'a pas de prix. Depuis des années, nos clients reviennent pour la même raison : un chocolat qui ne ressemble à aucun autre. Découvrez leurs retours, leurs coups de cœur, et laissez-vous guider par ceux qui ont déjà succombé à notre savoir-faire artisanal.</p>
+  
+    <div class="avisContainer">
+</div>
+
+</section>
+
+  <footer>
+    <div class="socialMedia">
+      <nav class="linkFooter">
+        <ul>
+          <li>Suivez-nous</li>
+          <li>Linkedin</li>
+          <li>Instagram</li>
+          <li>Facebook</li>
+        </ul>
+      </nav>
+            <nav class="linkFooter2">
+        <ul>
+          <li>Service clientèle</li>
+          <li>Contact</li>
+          <li>FAQ</li>
+          <li>Informations de livraisons</li>
+          <li>Magasins</li>
+        </ul>
+      </nav>
+
+    </div>
+  </footer>
 
 </body>
 </html>
